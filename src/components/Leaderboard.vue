@@ -5,7 +5,7 @@ const store = useChoreStore()
 
 <template>
   <div class="mb-4 rounded bg-gray-200 p-4 shadow">
-    <h2 class="mb-2 text-xl font-semibold">Leaderboard</h2>
+    <h2 class="mb-2 text-xl font-semibold">Family Chores Leaderboard</h2>
 
     <ul class="space-y-1">
       <li

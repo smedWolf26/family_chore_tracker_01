@@ -1,11 +1,13 @@
 <script setup>
 import LeaderBoard from './components/LeaderBoard.vue'
-//import AddChore from './components/AddChore.vue'
-//import ChoreList from './components/ChoreList.vue'
+import AddChore from './components/AddChore.vue'
+import ChoreList from './components/ChoreList.vue'
 </script>
 
 <template>
   <div>
     <LeaderBoard />
+    <ChoreList />
+    <AddChore />
   </div>
 </template>
