@@ -12,7 +12,7 @@ function addChore() {
 </script>
 
 <template>
-  <div>
+  <div class="mb-4 rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
     <h2>Add a Chore</h2>
 
     <input
