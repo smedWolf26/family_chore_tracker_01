@@ -1,10 +1,13 @@
 <script setup>
-import
+import Leaderboard from './components/Leaderboard.vue'
+import AddChore from './components/AddChore.vue'
+import ChoreList from './components/ChoreList.vue'
 </script>
 
 <template>
-  <div class="flex min-h-screen flex-col">
-    <NavMenu />
-    <RouterView />
+  <div>
+    <Leaderboard />
+    <AddChore />
+    <ChoreList />
   </div>
 </template>
